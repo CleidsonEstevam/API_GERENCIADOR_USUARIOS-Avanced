@@ -6,5 +6,5 @@ build_property.ProjectTypeGuids =
 build_property.InvariantGlobalization = 
 build_property.PlatformNeutralAssembly = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
-build_property.RootNamespace = Manager.Core
-build_property.ProjectDir = c:\Users\cleid\Desktop\Manager\src\Manager.Core\
+build_property.RootNamespace = Manager.Infra
+build_property.ProjectDir = c:\Users\cleid\Desktop\Manager\src\4 - Manager.Infra\
