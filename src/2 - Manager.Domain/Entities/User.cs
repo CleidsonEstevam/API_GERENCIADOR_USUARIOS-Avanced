@@ -54,7 +54,7 @@ namespace Manager.Domain.Entities
         public override bool Validate()
         {
            var validator = new UserValidator(); 
-           //Pedido para validadr ESTÁ(this) classe. 
+           //Pedido para validar ESTÁ(this) classe. 
            var validation = validator.Validate(this);
 
            if(!validation.IsValid)

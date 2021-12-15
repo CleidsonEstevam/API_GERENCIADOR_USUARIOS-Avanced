@@ -16,7 +16,7 @@ namespace Manager.Domain.Validations
                 .NotNull()
                 .WithMessage("A Entidade não pode ser nula.");
                 
-            //Validadção para a propriedade Nome da Entidade
+            //Validação para a propriedade Nome da Entidade
             RuleFor(x => x.Name)
                 .NotNull()
                 .WithMessage("O nome não pode ser nulo.")

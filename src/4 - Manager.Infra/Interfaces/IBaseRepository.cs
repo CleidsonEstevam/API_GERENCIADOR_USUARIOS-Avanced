@@ -11,6 +11,6 @@ namespace Manager.Infra.Interfaces
          Task Remove(long obj);
          Task<T> Get(long obj);
          Task<List<T>> Get();
-
+        Task<List<T>> Remove();
     }
 }
