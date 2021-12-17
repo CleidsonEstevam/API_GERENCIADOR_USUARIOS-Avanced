@@ -1,8 +1,10 @@
 using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 using Manager.Domain.Entities;
 using Manager.Infra.Context;
 using Manager.Infra.Interfaces;
+using Microsoft.EntityFrameworkCore;
 
 namespace Manager.Infra.Repositories
 {
@@ -18,7 +20,7 @@ namespace Manager.Infra.Repositories
         public async Task<User> GetByEmail(string email)
         {
             var user = await _context.Users
-                                     .where
+                                     .Where
                                      (
                                          x => 
                                           x.Email.ToLower() == email.ToLower()
@@ -45,10 +47,10 @@ namespace Manager.Infra.Repositories
         public async Task<List<User>> SearchByName(string nome)
         {
             var allUsers = await _context.Users
-                                        .where
+                                        .Where
                                         (
                                             x => 
-                                                x.Nome.ToLower().Contains(nomel.ToLower()) 
+                                                x.Name.ToLower().Contains(nome.ToLower()) 
                                         )
                                         .AsNoTracking()
                                         .ToListAsync();

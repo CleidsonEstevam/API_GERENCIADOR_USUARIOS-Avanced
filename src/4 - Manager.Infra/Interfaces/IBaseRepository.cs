@@ -1,16 +1,16 @@
-using System.Collections.Generic;
 using System.Threading.Tasks;
 using Manager.Domain.Entities;
+using System.Collections.Generic;
+using System.Linq.Expressions;
+using System;
 
-namespace Manager.Infra.Interfaces
-{
-    public interface IBaseRepository<T> where T : Base
-    {
-         Task<T> Create(T obj);
-         Task<T> Update(T obj);
-         Task Remove(long obj);
-         Task<T> Get(long obj);
-         Task<List<T>> Get();
-        Task<List<T>> Remove();
+namespace Manager.Infra.Interfaces{
+    public interface IBaseRepository<T> where T : Base{
+        Task<T> CreateAsync(T obj);
+        Task<T> UpdateAsync(T obj);
+        Task RemoveAsync(long id);
+        Task<List<T>> GetAllAsync();
+        Task<T> GetAsync(long id);
+        
     }
 }
