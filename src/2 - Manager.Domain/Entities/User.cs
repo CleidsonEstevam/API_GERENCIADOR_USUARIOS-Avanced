@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using Manager.Core.Exceptions;
 using Manager.Domain.Validations;
 
 namespace Manager.Domain.Entities
@@ -63,11 +64,13 @@ namespace Manager.Domain.Entities
                {
                      _errors.Add(error.ErrorMessage);              
 
-                    throw new Exception("Alguns campos inválidos" + _errors[0]);
+                    throw new DomainException("Alguns campos inválidos", _errors);
                }
            }
-           //Se a entidade tiver ok, ele retorna true se não retorna a exeção
+           //Se a entidade tiver ok ele retorna true, se não retorna a exeção
             return true;
         }
+
+
     }
 }

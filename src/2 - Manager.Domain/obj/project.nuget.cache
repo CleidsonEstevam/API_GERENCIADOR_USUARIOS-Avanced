@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NpOOU7oKpDk5kxx+v6UEe54JuAji7iGL7NTBopvx+RXJGdnVujcuKQI85j1da1fuIdpoxx0Tr24mMKKaReO+Bg==",
+  "dgSpecHash": "7wvcYG5RvmkmAZcYdNzopZuG4Ku4ClE72a2JCoQ4VW1EdNYLxcQFg0lx/7A6Lt9Aqq9TeDLWKQJO492yxMGMKg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\cleid\\Desktop\\Manager\\src\\Manager.Domain\\Manager.Domain.csproj",
+  "projectFilePath": "C:\\Users\\cleid\\Desktop\\Manager\\src\\2 - Manager.Domain\\Manager.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\cleid\\.nuget\\packages\\fluentvalidation\\10.3.3\\fluentvalidation.10.3.3.nupkg.sha512"
   ],
