@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "nNstKtohJcOIu62yoz3bG/vgyYr3mAuf0a5GMcTWzb/hxQOwt070VsB2w9Ul0f1ChxHR2iYQXxcPCa50Uxdu+g==",
+  "dgSpecHash": "xS89esjw1OWIdGcG0EPc4KPi/VAt9D4aGGhJ/aLh2whAi95duLK0GecLgN0hOOq7iMNDGXBz3RgFDG9RgFoWfQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\cleid\\Desktop\\Manager\\src\\Manager.Services\\Manager.Services.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\cleid\\Desktop\\Manager\\src\\3 - Manager.Services\\Manager.Services.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\cleid\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
+    "C:\\Users\\cleid\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
+  ],
   "logs": []
 }

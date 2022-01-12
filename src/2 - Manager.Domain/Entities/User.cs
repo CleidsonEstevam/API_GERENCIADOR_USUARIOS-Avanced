@@ -29,6 +29,8 @@ namespace Manager.Domain.Entities
             Email     = email;
             Password  = password;
             _errors = new List<string>();
+
+            Validate();
         }
 
         //Métodos da entidade, comportamentos que cada propriedade vai ter
