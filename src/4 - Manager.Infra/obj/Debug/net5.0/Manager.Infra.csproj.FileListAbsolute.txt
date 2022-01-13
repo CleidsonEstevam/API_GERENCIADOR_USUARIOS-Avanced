@@ -4,8 +4,10 @@ C:\Users\cleid\Desktop\Manager\src\4 - Manager.Infra\bin\Debug\net5.0\Manager.In
 C:\Users\cleid\Desktop\Manager\src\4 - Manager.Infra\bin\Debug\net5.0\Manager.Infra.dll
 C:\Users\cleid\Desktop\Manager\src\4 - Manager.Infra\bin\Debug\net5.0\ref\Manager.Infra.dll
 C:\Users\cleid\Desktop\Manager\src\4 - Manager.Infra\bin\Debug\net5.0\Manager.Infra.pdb
+C:\Users\cleid\Desktop\Manager\src\4 - Manager.Infra\bin\Debug\net5.0\Manager.Core.dll
 C:\Users\cleid\Desktop\Manager\src\4 - Manager.Infra\bin\Debug\net5.0\Manager.Domain.dll
 C:\Users\cleid\Desktop\Manager\src\4 - Manager.Infra\bin\Debug\net5.0\Manager.Domain.pdb
+C:\Users\cleid\Desktop\Manager\src\4 - Manager.Infra\bin\Debug\net5.0\Manager.Core.pdb
 C:\Users\cleid\Desktop\Manager\src\4 - Manager.Infra\obj\Debug\net5.0\Manager.Infra.csproj.AssemblyReference.cache
 C:\Users\cleid\Desktop\Manager\src\4 - Manager.Infra\obj\Debug\net5.0\Manager.Infra.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\cleid\Desktop\Manager\src\4 - Manager.Infra\obj\Debug\net5.0\Manager.Infra.AssemblyInfoInputs.cache
@@ -16,5 +18,3 @@ C:\Users\cleid\Desktop\Manager\src\4 - Manager.Infra\obj\Debug\net5.0\Manager.In
 C:\Users\cleid\Desktop\Manager\src\4 - Manager.Infra\obj\Debug\net5.0\ref\Manager.Infra.dll
 C:\Users\cleid\Desktop\Manager\src\4 - Manager.Infra\obj\Debug\net5.0\Manager.Infra.pdb
 C:\Users\cleid\Desktop\Manager\src\4 - Manager.Infra\obj\Debug\net5.0\Manager.Infra.genruntimeconfig.cache
-C:\Users\cleid\Desktop\Manager\src\4 - Manager.Infra\bin\Debug\net5.0\Manager.Core.dll
-C:\Users\cleid\Desktop\Manager\src\4 - Manager.Infra\bin\Debug\net5.0\Manager.Core.pdb
