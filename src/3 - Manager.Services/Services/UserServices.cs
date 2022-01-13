@@ -6,6 +6,7 @@ using Manager.Infra.Interfaces;
 using Manager.Services.DTO;
 using Manager.Services.Interfaces;
 using Manager.Core.Exceptions;
+
 namespace Manager.Services.Services
 {
     public class UserServices : IUserService

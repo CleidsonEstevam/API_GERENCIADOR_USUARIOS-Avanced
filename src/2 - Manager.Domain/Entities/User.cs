@@ -15,8 +15,8 @@ namespace Manager.Domain.Entities
 
           --> é feita a verificação se o método estiver invalido ele vai retornar um erro -- 
         */
-        public string Name { get; private set; }
-        public string Email { get; private set; }
+        public string Name     { get; private set; }
+        public string Email    { get; private set; }
         public string Password { get; private set; }
 
         //Construtor vazio para deixar a entidade aberta para o EF
