@@ -159,9 +159,9 @@ namespace Manager.API.Controllers
            }
          }
 
-          [HttpGet]
-         [Route("api/v1/users/search-by-name")]
-         public async Task<ActionResult> SearchByName([FromBody] string name)
+        [HttpGet]
+        [Route("api/v1/users/search-by-name")]
+         public async Task<ActionResult> SearchByName(string name)
          {
            try
            {
@@ -193,7 +193,7 @@ namespace Manager.API.Controllers
 
         [HttpGet]
          [Route("api/v1/users/search-by-email")]
-         public async Task<ActionResult> SearchByEmail([FromBody] string email)
+         public async Task<ActionResult> SearchByEmail(string email)
          {
            try
            {
