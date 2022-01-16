@@ -9,4 +9,3 @@ C:\Users\cleid\Desktop\Manager\src\5 - Manager.Core\obj\Debug\net5.0\Manager.Cor
 C:\Users\cleid\Desktop\Manager\src\5 - Manager.Core\obj\Debug\net5.0\Manager.Core.dll
 C:\Users\cleid\Desktop\Manager\src\5 - Manager.Core\obj\Debug\net5.0\ref\Manager.Core.dll
 C:\Users\cleid\Desktop\Manager\src\5 - Manager.Core\obj\Debug\net5.0\Manager.Core.pdb
-C:\Users\cleid\Desktop\Manager\src\5 - Manager.Core\obj\Debug\net5.0\Manager.Core.csproj.AssemblyReference.cache

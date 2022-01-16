@@ -7,6 +7,7 @@ using Manager.Services.Interfaces;
 using AutoMapper;
 using Manager.Services.DTO;
 using Manager.API.Utilites;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Manager.API.Controllers 
 {
@@ -23,6 +24,7 @@ namespace Manager.API.Controllers
         }
 
         [HttpPost]
+        [Authorize]
          [Route("api/v1/users/create")]
          public async Task<IActionResult> Create([FromBody] CreateUserViewModel userViewModel)
          {
@@ -47,6 +49,7 @@ namespace Manager.API.Controllers
              }
          }
           [HttpPut]
+          [Authorize]
          [Route("api/v1/users/update")]
          public async Task<IActionResult> Update([FromBody] UpdateUserViewModel userViewModel)
          {
@@ -79,6 +82,7 @@ namespace Manager.API.Controllers
          }
 
          [HttpDelete]
+         [Authorize]
          [Route("api/v1/users/delete/{id}")]
           public async Task<IActionResult> Remove(long id)
          {
@@ -104,6 +108,7 @@ namespace Manager.API.Controllers
          
 
           [HttpGet]
+          [Authorize]
          [Route("api/v1/users/get/{id}")]
           public async Task<IActionResult> Get(long id)
          {
@@ -136,6 +141,7 @@ namespace Manager.API.Controllers
          }
 
           [HttpGet]
+          [Authorize]
          [Route("api/v1/users/get/get-all")]
           public async Task<IActionResult> Get()
          {
@@ -161,6 +167,7 @@ namespace Manager.API.Controllers
          }
 
          [HttpGet]
+         [Authorize]
          [Route("api/v1/users/get-by-email")]
          public async Task<ActionResult> GetByEmail(string email)
          {
@@ -193,6 +200,7 @@ namespace Manager.API.Controllers
          }
 
         [HttpGet]
+        [Authorize]
         [Route("api/v1/users/search-by-name")]
          public async Task<ActionResult> SearchByName(string name)
          {
@@ -225,7 +233,8 @@ namespace Manager.API.Controllers
          }
 
         [HttpGet]
-         [Route("api/v1/users/search-by-email")]
+        [Authorize]
+        [Route("api/v1/users/search-by-email")]
          public async Task<ActionResult> SearchByEmail(string email)
          {
            try
