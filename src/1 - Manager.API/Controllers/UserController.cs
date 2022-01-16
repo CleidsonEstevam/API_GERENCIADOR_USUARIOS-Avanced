@@ -46,6 +46,38 @@ namespace Manager.API.Controllers
                 return StatusCode(500, Responses.AplicationErrorMessage());
              }
          }
+          [HttpPut]
+         [Route("api/v1/users/update")]
+         public async Task<IActionResult> Update([FromBody] UpdateUserViewModel userViewModel)
+         {
+             var userDTO = _mapper.Map<UserDTO>(userViewModel);
+             var userUpdate =  await _userService.Update(userDTO);
+             
+             try 
+             {
+               if(userUpdate == null)
+               return Ok(new ResultViewModel{
+                 Message = "Usuário não encontrado",
+                 Success = true,
+                 Data = userUpdate
+               });
+
+                return Ok(new ResultViewModel{
+                 Message = "Usuário modificado com sucesso.",
+                 Success = true,
+                 Data = userUpdate
+               });
+             }
+             catch(DomainException ex)
+             {
+                return BadRequest(Responses.DomainErrorMessage(ex.Message, ex.Erros));
+             }
+             catch(Exception)
+             {
+                return StatusCode(500, Responses.AplicationErrorMessage());
+             }
+         }
+
          [HttpDelete]
          [Route("api/v1/users/delete/{id}")]
           public async Task<IActionResult> Remove(long id)
@@ -69,6 +101,7 @@ namespace Manager.API.Controllers
                 return StatusCode(500, Responses.AplicationErrorMessage());
              }
          }
+         
 
           [HttpGet]
          [Route("api/v1/users/get/{id}")]

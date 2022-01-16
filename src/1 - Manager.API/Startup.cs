@@ -45,6 +45,8 @@ namespace Manager.API
             {
                 cfg.CreateMap<User, UserDTO>().ReverseMap();
                 cfg.CreateMap<CreateUserViewModel, UserDTO>().ReverseMap();
+                cfg.CreateMap<UpdateUserViewModel, UserDTO>().ReverseMap();
+
                 
             });
 
@@ -63,6 +65,7 @@ namespace Manager.API
 
             services.AddScoped<IUserService, UserServices>();
             services.AddScoped<IUserRepository, UserRepository>();
+            
              
             #endregion 
    

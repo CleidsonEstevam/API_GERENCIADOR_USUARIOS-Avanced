@@ -48,9 +48,10 @@ namespace Manager.Services.Services
             throw new DomainException("Usuário não existe."); 
 
             var user = _mapper.Map<User>(userDTO);
+            
             user.Validate();
 
-            var userCreated = await _userRepository.CreateAsync(user);
+            var userCreated = await _userRepository.UpdateAsync(user);
 
             return _mapper.Map<UserDTO>(userCreated);
         }

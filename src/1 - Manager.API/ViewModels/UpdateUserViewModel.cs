@@ -5,8 +5,8 @@ namespace Manager.API.ViewModels
     public class UpdateUserViewModel
     {
         [Required(ErrorMessage = "O ID não pode ser nulo.")]
-        [MinLength(1, ErrorMessage = "O ID não pode ser menor que 1.")]
-      public int Id { get; set; }
+        [Range(1, int.MaxValue, ErrorMessage = "O ID não pode ser menor que 1.")]
+        public int Id { get; set; }
 
         [Required(ErrorMessage = "O Nome não pode ser nulo.")]
         [MinLength(3, ErrorMessage = "O Nome deve ter no mínimo 3 caracteres.")]
