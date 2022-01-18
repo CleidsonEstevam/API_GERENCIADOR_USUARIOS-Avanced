@@ -124,6 +124,10 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "EscNet": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
             "automapper": {
               "target": "Package",
               "version": "[11.0.0, )"

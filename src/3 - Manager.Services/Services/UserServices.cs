@@ -6,6 +6,7 @@ using Manager.Infra.Interfaces;
 using Manager.Services.DTO;
 using Manager.Services.Interfaces;
 using Manager.Core.Exceptions;
+using EscNet.Cryptography.Interfaces;
 
 namespace Manager.Services.Services
 {
@@ -14,11 +15,13 @@ namespace Manager.Services.Services
         //Fazendo a injeção de dependencias
         private readonly IMapper _mapper;
         private readonly IUserRepository _userRepository;
+        private readonly IRijndaelCryptography _rijndaelCryptography;
 
-        public UserServices(IMapper mapper, IUserRepository userRepository)
+        public UserServices(IMapper mapper, IUserRepository userRepository, IRijndaelCryptography rijndaelCryptography)
         {
             _mapper = mapper;
             _userRepository = userRepository;
+            _rijndaelCryptography = rijndaelCryptography;
         }
 
         public async Task<UserDTO> Crate(UserDTO userDto)
@@ -31,7 +34,8 @@ namespace Manager.Services.Services
 
             //Fazendo o De Para da DTO para a Entidade User
             var user = _mapper.Map<User>(userDto);
-            user.Validate();
+            user.Validate(); 
+            user.ChangePassword(_rijndaelCryptography.Encrypt(user.Password)); 
             //Mandando entidade para o Repoitorio de criação
             //UserRepository retorna uma estancia de User
             var userCreated = await _userRepository.CreateAsync(user);
@@ -50,6 +54,8 @@ namespace Manager.Services.Services
             var user = _mapper.Map<User>(userDTO);
             
             user.Validate();
+            user.ChangePassword(_rijndaelCryptography.Encrypt(user.Password)); 
+
 
             var userCreated = await _userRepository.UpdateAsync(user);
 
@@ -89,16 +95,11 @@ namespace Manager.Services.Services
             return _mapper.Map<UserDTO>(allUsers);
         }
 
-       
         public async Task<List<UserDTO>> SearchByEmail(string email)
         {
              var allUsers = await _userRepository.SearchByEmail(email);
 
             return _mapper.Map<List<UserDTO>>(allUsers);
         }
-
-        
-
-     
     }
 }

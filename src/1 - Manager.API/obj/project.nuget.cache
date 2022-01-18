@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "YNbS53m8jeZ4Ah0bLPG31OjaGiwh2ZMsCPD1AXNOhMJoea8S6h19V8df0DqxFob9gpkS8QNdGuvfMaDmwr6z+w==",
+  "dgSpecHash": "KsGOSLh3qybPO6MZWDQEq8IqGYbLy12dniRyUeu29yhRRsZtqDwwHfAB19K9p3optBxY6jyM6Mj9GxyCTK8MPA==",
   "success": true,
   "projectFilePath": "C:\\Users\\cleid\\Desktop\\Manager\\src\\1 - Manager.API\\Manager.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\cleid\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
+    "C:\\Users\\cleid\\.nuget\\packages\\escnet\\1.0.1\\escnet.1.0.1.nupkg.sha512",
     "C:\\Users\\cleid\\.nuget\\packages\\fluentvalidation\\10.3.3\\fluentvalidation.10.3.3.nupkg.sha512",
     "C:\\Users\\cleid\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\5.0.0\\microsoft.aspnetcore.authentication.jwtbearer.5.0.0.nupkg.sha512",
     "C:\\Users\\cleid\\.nuget\\packages\\microsoft.aspnetcore.authentication.openidconnect\\5.0.0\\microsoft.aspnetcore.authentication.openidconnect.5.0.0.nupkg.sha512",
