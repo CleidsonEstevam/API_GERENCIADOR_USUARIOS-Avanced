@@ -356,11 +356,19 @@
               "target": "Package",
               "version": "[11.0.0, )"
             },
+            "bogus": {
+              "target": "Package",
+              "version": "[34.0.1, )"
+            },
             "coverlet.collector": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
               "version": "[3.1.0, )"
+            },
+            "fluentassertions": {
+              "target": "Package",
+              "version": "[6.3.0, )"
             },
             "moq": {
               "target": "Package",

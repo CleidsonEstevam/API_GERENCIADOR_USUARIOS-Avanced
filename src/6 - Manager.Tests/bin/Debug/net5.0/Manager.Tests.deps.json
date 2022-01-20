@@ -15,7 +15,9 @@
           "Manager.Services": "1.0.0",
           "Microsoft.NET.Test.Sdk": "16.11.0",
           "AutoMapper": "11.0.0",
+          "Bogus": "34.0.1",
           "coverlet.collector": "3.1.0",
+          "FluentAssertions": "6.3.0",
           "Moq": "4.16.1",
           "xunit": "2.4.1",
           "xunit.runner.visualstudio": "2.4.3"
@@ -32,6 +34,14 @@
           "lib/netstandard2.1/AutoMapper.dll": {
             "assemblyVersion": "11.0.0.0",
             "fileVersion": "11.0.0.0"
+          }
+        }
+      },
+      "Bogus/34.0.1": {
+        "runtime": {
+          "lib/netstandard2.0/Bogus.dll": {
+            "assemblyVersion": "34.0.1.0",
+            "fileVersion": "34.0.1.0"
           }
         }
       },
@@ -64,6 +74,17 @@
           "lib/netcoreapp3.1/EscNet.dll": {
             "assemblyVersion": "3.1.0.0",
             "fileVersion": "3.1.0.0"
+          }
+        }
+      },
+      "FluentAssertions/6.3.0": {
+        "dependencies": {
+          "System.Configuration.ConfigurationManager": "4.7.0"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/FluentAssertions.dll": {
+            "assemblyVersion": "6.3.0.0",
+            "fileVersion": "6.3.0.0"
           }
         }
       },
@@ -1813,6 +1834,13 @@
       "path": "automapper/11.0.0",
       "hashPath": "automapper.11.0.0.nupkg.sha512"
     },
+    "Bogus/34.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-49iq7QrD0wb7V4/FcK8p3dWdJxNUbojaqK9L6KRvdikIuRjt38EsNp7QXICcYdbYw01K8BHUdxlnTNn/YX3qDA==",
+      "path": "bogus/34.0.1",
+      "hashPath": "bogus.34.0.1.nupkg.sha512"
+    },
     "Castle.Core/4.4.0": {
       "type": "package",
       "serviceable": true,
@@ -1833,6 +1861,13 @@
       "sha512": "sha512-RpgBig7Bp6ib5OvNqqOGOwv/mXYbM8nJwqthYeBhPlnSsG4B7CJiO/zg/c0gLu3QdS8oGrAJzI8y1sXuVA4hbg==",
       "path": "escnet/3.1.0",
       "hashPath": "escnet.3.1.0.nupkg.sha512"
+    },
+    "FluentAssertions/6.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-f+ywjTSNhc1HDtzCqtYHB6/Xuf69pznR8eUPJs1CoaFq00sCIg6KjGcXHwdWslnmy4x5TAq3kRw1728CSaQ/zw==",
+      "path": "fluentassertions/6.3.0",
+      "hashPath": "fluentassertions.6.3.0.nupkg.sha512"
     },
     "FluentValidation/10.3.3": {
       "type": "package",

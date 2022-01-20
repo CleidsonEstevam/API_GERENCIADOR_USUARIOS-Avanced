@@ -1,9 +1,4 @@
 C:\Users\cleid\Desktop\Manager\src\6 - Manager.Tests\bin\Debug\net5.0\CoverletSourceRootsMapping
-C:\Users\cleid\Desktop\Manager\src\6 - Manager.Tests\obj\Debug\net5.0\Manager.Tests.csproj.AssemblyReference.cache
-C:\Users\cleid\Desktop\Manager\src\6 - Manager.Tests\obj\Debug\net5.0\Manager.Tests.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\cleid\Desktop\Manager\src\6 - Manager.Tests\obj\Debug\net5.0\Manager.Tests.AssemblyInfoInputs.cache
-C:\Users\cleid\Desktop\Manager\src\6 - Manager.Tests\obj\Debug\net5.0\Manager.Tests.AssemblyInfo.cs
-C:\Users\cleid\Desktop\Manager\src\6 - Manager.Tests\obj\Debug\net5.0\Manager.Tests.csproj.CoreCompileInputs.cache
 C:\Users\cleid\Desktop\Manager\src\6 - Manager.Tests\bin\Debug\net5.0\testhost.dll
 C:\Users\cleid\Desktop\Manager\src\6 - Manager.Tests\bin\Debug\net5.0\testhost.exe
 C:\Users\cleid\Desktop\Manager\src\6 - Manager.Tests\bin\Debug\net5.0\Microsoft.TestPlatform.PlatformAbstractions.dll
@@ -17,8 +12,10 @@ C:\Users\cleid\Desktop\Manager\src\6 - Manager.Tests\bin\Debug\net5.0\Manager.Te
 C:\Users\cleid\Desktop\Manager\src\6 - Manager.Tests\bin\Debug\net5.0\ref\Manager.Tests.dll
 C:\Users\cleid\Desktop\Manager\src\6 - Manager.Tests\bin\Debug\net5.0\Manager.Tests.pdb
 C:\Users\cleid\Desktop\Manager\src\6 - Manager.Tests\bin\Debug\net5.0\AutoMapper.dll
+C:\Users\cleid\Desktop\Manager\src\6 - Manager.Tests\bin\Debug\net5.0\Bogus.dll
 C:\Users\cleid\Desktop\Manager\src\6 - Manager.Tests\bin\Debug\net5.0\Castle.Core.dll
 C:\Users\cleid\Desktop\Manager\src\6 - Manager.Tests\bin\Debug\net5.0\EscNet.dll
+C:\Users\cleid\Desktop\Manager\src\6 - Manager.Tests\bin\Debug\net5.0\FluentAssertions.dll
 C:\Users\cleid\Desktop\Manager\src\6 - Manager.Tests\bin\Debug\net5.0\FluentValidation.dll
 C:\Users\cleid\Desktop\Manager\src\6 - Manager.Tests\bin\Debug\net5.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll
 C:\Users\cleid\Desktop\Manager\src\6 - Manager.Tests\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
@@ -152,6 +149,11 @@ C:\Users\cleid\Desktop\Manager\src\6 - Manager.Tests\bin\Debug\net5.0\Manager.Do
 C:\Users\cleid\Desktop\Manager\src\6 - Manager.Tests\bin\Debug\net5.0\Manager.Services.pdb
 C:\Users\cleid\Desktop\Manager\src\6 - Manager.Tests\bin\Debug\net5.0\Manager.Infra.pdb
 C:\Users\cleid\Desktop\Manager\src\6 - Manager.Tests\bin\Debug\net5.0\Manager.Core.pdb
+C:\Users\cleid\Desktop\Manager\src\6 - Manager.Tests\obj\Debug\net5.0\Manager.Tests.csproj.AssemblyReference.cache
+C:\Users\cleid\Desktop\Manager\src\6 - Manager.Tests\obj\Debug\net5.0\Manager.Tests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cleid\Desktop\Manager\src\6 - Manager.Tests\obj\Debug\net5.0\Manager.Tests.AssemblyInfoInputs.cache
+C:\Users\cleid\Desktop\Manager\src\6 - Manager.Tests\obj\Debug\net5.0\Manager.Tests.AssemblyInfo.cs
+C:\Users\cleid\Desktop\Manager\src\6 - Manager.Tests\obj\Debug\net5.0\Manager.Tests.csproj.CoreCompileInputs.cache
 C:\Users\cleid\Desktop\Manager\src\6 - Manager.Tests\obj\Debug\net5.0\Manager.Tests.csproj.CopyComplete
 C:\Users\cleid\Desktop\Manager\src\6 - Manager.Tests\obj\Debug\net5.0\Manager.Tests.dll
 C:\Users\cleid\Desktop\Manager\src\6 - Manager.Tests\obj\Debug\net5.0\ref\Manager.Tests.dll
