@@ -58,15 +58,15 @@ Foi utilizado alguns pacotes na camada de API para auxílio dos métodos:
 <p>- Swashbuckle.AspNetCore" Version="5.6.3" <p/>
 <br/>
 <h3 id="pacotes">✅ Métodos da API:</h3>
-<p><p/>
-<p><p/>
-<p><p/>
-<p><p/>
-<p><p/>
-<p><p/>
-<p><p/>
-
-
+<p>Login para geração de TOKEN [POST]<p/>
+<p>Create [POST]<p/>
+<p>Update [PUT]<p/>
+<p>Delete [DELETE]<p/>
+<p>Get por Id [GET]<p/>
+<p>Get de todos usuários [GET]<p/>
+<p>Search por Nome [GET]<p/>
+<p>Search por Email [GET]<p/>
+<br/>
 <h3 id="autor">✅ Autor:</h3>
  <p>Cleidson Estevam<p/>
  <p>Desenvolvedor .NET<p/>
