@@ -1,0 +1,15 @@
+C:\Users\cleid\Desktop\Manager\src\2 - Manager.Domain\bin\Release\net5.0\Manager.Domain.deps.json
+C:\Users\cleid\Desktop\Manager\src\2 - Manager.Domain\bin\Release\net5.0\Manager.Domain.dll
+C:\Users\cleid\Desktop\Manager\src\2 - Manager.Domain\bin\Release\net5.0\ref\Manager.Domain.dll
+C:\Users\cleid\Desktop\Manager\src\2 - Manager.Domain\bin\Release\net5.0\Manager.Domain.pdb
+C:\Users\cleid\Desktop\Manager\src\2 - Manager.Domain\bin\Release\net5.0\Manager.Core.dll
+C:\Users\cleid\Desktop\Manager\src\2 - Manager.Domain\bin\Release\net5.0\Manager.Core.pdb
+C:\Users\cleid\Desktop\Manager\src\2 - Manager.Domain\obj\Release\net5.0\Manager.Domain.csproj.AssemblyReference.cache
+C:\Users\cleid\Desktop\Manager\src\2 - Manager.Domain\obj\Release\net5.0\Manager.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cleid\Desktop\Manager\src\2 - Manager.Domain\obj\Release\net5.0\Manager.Domain.AssemblyInfoInputs.cache
+C:\Users\cleid\Desktop\Manager\src\2 - Manager.Domain\obj\Release\net5.0\Manager.Domain.AssemblyInfo.cs
+C:\Users\cleid\Desktop\Manager\src\2 - Manager.Domain\obj\Release\net5.0\Manager.Domain.csproj.CoreCompileInputs.cache
+C:\Users\cleid\Desktop\Manager\src\2 - Manager.Domain\obj\Release\net5.0\Manager.Domain.csproj.CopyComplete
+C:\Users\cleid\Desktop\Manager\src\2 - Manager.Domain\obj\Release\net5.0\Manager.Domain.dll
+C:\Users\cleid\Desktop\Manager\src\2 - Manager.Domain\obj\Release\net5.0\ref\Manager.Domain.dll
+C:\Users\cleid\Desktop\Manager\src\2 - Manager.Domain\obj\Release\net5.0\Manager.Domain.pdb

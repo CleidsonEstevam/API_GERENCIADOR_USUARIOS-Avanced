@@ -43,6 +43,7 @@ namespace Manager.Tests.Projects.Services
      
         //METODO_CONDICAO_RESULTADOESPERADO
       [Fact(DisplayName = "Create Valid User")]
+        [Trait("Category", "Services")]
      public async Task Create_WhenUserIsValid_ReturnsUserDTO()
       {
           // ARRANGE -- REUNE O TESTE 
