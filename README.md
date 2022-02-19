@@ -32,6 +32,7 @@
 <p>- Reposyto Patterns </p>
 <p>- Notify Patterns </p>
 <p>- Arquitetura em Camadas </p>
+<p>- TDD </p>
 <p>- Cloud: Azure para armazenamento da API </p>
 <br/>
 <h3 id="config">✅ Configurações necessárias:</h3>
