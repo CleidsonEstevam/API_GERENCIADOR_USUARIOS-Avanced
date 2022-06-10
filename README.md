@@ -29,7 +29,6 @@
 <p>- Autenticação com JWT <p/>
 <p>- FluentValidation </p>
 <p>- Repository Patterns </p>
-<p>- Reposyto Patterns </p>
 <p>- Notify Patterns </p>
 <p>- Arquitetura em Camadas </p>
 <p>- TDD </p>
